@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #f2f1ef;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 15%;
+  background: inherit;
+}
+.logo-name {
+  font-size: 5vmin;
+  font-family: "Sen", sans-serif;
+  color: #161513;
+}
+.logo-dot {
+  height: 2.5vmin;
+  width: 2.5vmin;
+  background: #161513;
+  border-radius: 100%;
+  margin-bottom: 7vmin;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  align-items: center;
+  padding: 25px;
+}
+.header-nav {
+  font-family: "Open Sans";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.link {
+  font-family: "Avenir", sans-serif;
+  display: inline-block;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 126px;
+  height: 42px;
+  box-sizing: border-box;
+  border: 1px solid #161513;
+  border-radius: 0px;
+}
+.nav-btn_inner {
+  font-family: "Avenir", sans-serif;
+  display: inline-block;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+.about {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  align-items: center;
+  padding: 10px 10% 0;
+}
+.about-content {
+  max-width: 800px;
+}
+.about-content_text {
+  font-family: "Avenir", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  color: #161513;
+}
+.about-btn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100px;
+  height: 50px;
+  background: #161513;
+  border: 1px solid #161513;
+  border-radius: 0px;
+}
+.about-btn-inner {
+  position: absolute;
+  width: 113px;
+  height: 24px;
+  font-family: "Avenir", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.pic {
+  border-radius: 50%;
+  max-width: 562px;
+  max-height: 562px;
+}
+.box {
+  height: 100%;
+  background-color: #161513;
+}
+.box-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.box-inner_text {
+  font-family: "Avenir", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 44px;
+  color: #f2f1ef;
+}
+.dot {
+  width: 13px;
+  height: 13px;
+  background: #f2f1ef;
+  border-radius: 50px;
+}
+.footer {
+  background-color: #e6e3de;
+  display: flex;
+  justify-content: space-between;
+  padding: 72px 72px 0 72px;
+}
+.contacts {
+  max-width: 360px;
+}
+.contacts-logo_name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contacts-name_inner {
+  font-family: "Avenir", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 44px;
+  color: #161513;
+}
+.contacts-copyright {
+  margin-top: 60px;
+  font-family: "Avenir", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 44px;
+  color: #161513;
+}
+.socialmedia {
+  display: flex;
+  flex-direction: column;
+}
+.socialmedia-number {
+  margin-top: 80px;
+  font-family: "Avenir", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 44px;
+  color: #161513;
+}
+.socialmedia-email {
+  font-family: "Avenir", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 44px;
+  color: #161513;
+}
